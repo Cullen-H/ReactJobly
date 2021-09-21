@@ -1,0 +1,25 @@
+.job {
+  background-color: #aaa;
+  max-width: 25vw;
+  margin: auto;
+  margin-bottom: 1vh;
+  padding: 0.8vh;
+  border-radius: 5px;
+}
+
+.job-button {
+  width: 5vw;
+  height: 2vh;
+  margin: 0.6vh 0 0.2vh 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #0074d9;
+}
+
+.job-button:disabled {
+  pointer-events: none;
+}
+
+.job-button:hover {
+  color: white;
+}

@@ -1,0 +1,39 @@
+.navbar {
+  background-color: #0074d9;
+  margin-bottom: 10px;
+}
+
+.navbar > li {
+  flex-basis: 50%;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navbar-item {
+  margin: 1vw 1vw 1vw 1vw;
+}
+
+.navbar-link {
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-link:hover {
+  color: white;
+  transition: 0.1s;
+}
+
+.navbar-home {
+  margin-right:auto;
+}
+
+.navbar-home .navbar-link {
+  font-size: 24px;
+  font-weight: 900;
+}

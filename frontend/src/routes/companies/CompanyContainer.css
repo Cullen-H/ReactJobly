@@ -1,0 +1,25 @@
+.company-container {
+  background-color: #aaa;
+  margin: 1vh 0 1vh 0;
+  padding: 1vh;
+  border-radius: 5px;
+}
+
+.company-container-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.company-container-title > h3 {
+  color: #0074d9;
+}
+
+.company-container-title > img {
+}
+
+.company-link {
+  text-decoration: none;
+  color: black;
+}

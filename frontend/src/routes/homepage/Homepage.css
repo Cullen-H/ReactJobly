@@ -1,0 +1,17 @@
+.homepage-header {
+  font-size: 6vh;
+  font-weight: 900;
+  color: #0074d9;
+  margin-top: 3vh;
+  margin-bottom: 4vh;
+}
+
+.homepage-button {
+  margin: 1vh 1vh 1vh 1vh;
+  text-decoration: none;
+  color: #0074d9;
+  font-size: 1.5vh;
+  background-color: #aaa;
+  padding: 1vh 1vw 1vh 1vw;
+  border-radius: 5px;
+}

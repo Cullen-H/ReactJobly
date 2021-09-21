@@ -1,0 +1,26 @@
+.search-container {
+  margin: 2vh 0 2vh 0;
+}
+
+.search-bar {
+  width: 15vw;
+  transition: 0.2s;
+  border: none;
+  border-bottom: 0.3vh solid #0074d9;
+  font-size: 1.7vh;
+  margin-right: 0.5vw;
+}
+
+.search-bar:focus {
+  width: 25vw;
+  transition: 0.2s;
+  outline: none;
+}
+
+.search-btn {
+  height: 2.1vh;
+  border: none;
+  background-color: #0074d9;
+  padding: 0.5vw;
+  border-radius: 5px;
+}
