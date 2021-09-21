@@ -17,7 +17,6 @@ function CompanyPage() {
   useEffect(function getCompanyOnLoad() {
     async function getCompany() {
       setCompany(await JoblyApi.getCompany(handle));
-      console.debug("loaded-company=", company, "test-company=", await JoblyApi.getCompany(handle));
     }
     getCompany();
   }, [handle]);

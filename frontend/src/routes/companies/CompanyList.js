@@ -17,13 +17,11 @@ function CompanyList() {
   const [companies, setCompanies] = useState([]);
 
   useEffect(function getCompaniesOnMount() {
-    console.debug("CompanyList useEffect getCompaniesOnMount");
     search();
   }, []);
 
   const search = async name => {
     let companies = await JoblyApi.getCompanies(name);
-    console.debug(name, "companies after search: ", companies);
     setCompanies(companies);
   }
 
